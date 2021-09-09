@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(38, 40, 41);
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+
+header {
+
+    width: 100%;
+    height: 3%;
+    background-color: rgb(0, 0, 0);
+}
+
+header:hover {
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+
+
+
+
+li {
+
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-underline-position: above;
+    
+}
+
+.logo {
+
+display: inline-block;
+width: 10%;
+height: 10%;
+margin-top: 0px;
+position: relative;
+top: 5px;
+left: 680px;
+
+}
+a {
+
+    color: rgb(247, 231, 0);
+    text-decoration: none;
+    border-bottom: 0px yellow solid;
+    text-align: right;
+    
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    
+    border-bottom: 3px rgb(255, 255, 255) solid;
+    transition: 0.3s;
+    }
+
+
+.home-bg-image {
+
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(89, 80, 214), rgb(28, 27, 128));
+}
+
+.home-bg-title {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: rgb(39, 35, 35);
+    background: none;
+    margin: none;
+    padding: 5px;
+    border-radius: 0px;
+    margin-left: 350px;
+    margin-right: 350px;
+    transition: 0.5s;
+
+}
+
+.home-bg-title:hover {
+
+    background: rgb(39,35, 35);
+    border: 3px white solid;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.text-field {
+
+  height: 50px;
+  width: 350px;
+  margin: 5px;
+  background-color: rgb(39,35, 35);
+  color: yellow;
+  font-size: 30px;
+  font-family: "Ubuntu+Mono", sans-serif;
+  border-radius: 15px;
+  border: 3px white solid;
+  position: relative;
+  top: 80px;
+  left: 800px;
+
+
+
+
+}
